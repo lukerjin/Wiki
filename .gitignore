@@ -1,0 +1,18 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Obsidian
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+
+# Large files (add specific patterns as needed)
+*.pdf
+*.mp4
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+.venv/
