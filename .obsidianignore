@@ -1,0 +1,7 @@
+tools/
+scripts/
+.git/
+.gitignore
+.obsidianignore
+CLAUDE.md
+LICENSE
