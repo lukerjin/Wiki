@@ -1,3 +1,11 @@
+---
+title: Obsidian as Viewer
+tags: [obsidian, viewer, tooling]
+created: 2026-04-02
+updated: 2026-04-02
+sources: [llm-knowledge-base-idea]
+---
+
 # Obsidian as Viewer
 
 > Using Obsidian as a rich, zero-config frontend for viewing an LLM-compiled knowledge base.
@@ -30,6 +38,3 @@ Obsidian is an ideal viewer for an LLM-maintained wiki because it natively suppo
 
 - [[summaries/llm-knowledge-base-idea]] — mentions Obsidian as the IDE frontend
 
----
-*Last updated: 2026-04-02*
-*Tags: #obsidian #viewer #tooling*

@@ -1,3 +1,11 @@
+---
+title: Wiki Compilation
+tags: [compilation, workflow, core-process]
+created: 2026-04-02
+updated: 2026-04-02
+sources: [llm-knowledge-base-idea]
+---
+
 # Wiki Compilation
 
 > The process of an LLM reading raw source materials and producing structured, interlinked wiki articles.
@@ -31,6 +39,3 @@ Wiki compilation is the core operation of the LLM knowledge base. When new raw s
 
 - [[summaries/llm-knowledge-base-idea]] — describes the compilation workflow
 
----
-*Last updated: 2026-04-02*
-*Tags: #compilation #workflow #core-process*

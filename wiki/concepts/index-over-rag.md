@@ -1,3 +1,11 @@
+---
+title: Index Over RAG
+tags: [rag, indexing, scaling, architecture]
+created: 2026-04-02
+updated: 2026-04-02
+sources: [llm-knowledge-base-idea]
+---
+
 # Index Over RAG
 
 > At moderate scale, auto-maintained plain-text indexes outperform vector search (RAG) for LLM-driven knowledge bases.
@@ -32,6 +40,3 @@ A key insight of the LLM knowledge base approach is that you don't need Retrieva
 
 - [[summaries/llm-knowledge-base-idea]] — discusses why indexes beat RAG at ~400K words
 
----
-*Last updated: 2026-04-02*
-*Tags: #rag #indexing #scaling #architecture*
