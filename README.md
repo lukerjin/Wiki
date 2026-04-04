@@ -16,10 +16,10 @@ raw/                  # Source materials (articles, papers, notes, images)
   └── images/         # Referenced images
 
 wiki/                 # LLM-compiled knowledge base (DO NOT EDIT MANUALLY)
-  ├── _index/         # Auto-maintained indexes and summaries
-  │   ├── master-index.md    # Master index of all articles
+  ├── _index/         # Auto-maintained indexes and log
+  │   ├── index.md           # Catalog of all articles (LLM reads this first)
   │   ├── topic-map.md       # Topic hierarchy and relationships
-  │   └── recent-changes.md  # Changelog of recent wiki updates
+  │   └── log.md             # Append-only chronological operation log
   ├── concepts/       # Concept articles (one per key concept)
   ├── summaries/      # Source document summaries
   ├── connections/    # Cross-cutting analysis and connections
@@ -102,9 +102,10 @@ raw/ sources  →  LLM reads & summarizes  →  wiki/summaries/
 ### Index Strategy
 
 Instead of fancy RAG, the system maintains plain-text indexes:
-- **master-index.md**: Every article with a one-line summary → lets the LLM quickly find relevant docs
+- **index.md**: Every article with a one-line summary → lets the LLM quickly find relevant docs
 - **topic-map.md**: Hierarchical topic tree → lets the LLM navigate by domain
-- These indexes are small enough to fit in context, enabling efficient lookup at scale
+- **log.md**: Append-only operation log → parseable with `grep "^## \[" log.md`
+- These files are small enough to fit in context, enabling efficient lookup at scale
 
 ### Output Formats
 
@@ -114,6 +115,23 @@ Instead of fancy RAG, the system maintains plain-text indexes:
 | Marp slides | Presentations, overviews | Obsidian (Marp plugin) |
 | Matplotlib/SVG | Data visualizations, diagrams | Obsidian |
 | Mermaid | Flowcharts, concept maps | Obsidian (native support) |
+| Canvas | Spatial layouts, mind maps | Obsidian (native .canvas) |
+
+## Obsidian Setup Tips
+
+### Recommended Plugins
+
+- **Obsidian Web Clipper** — browser extension to save web articles as .md into `raw/articles/`
+- **Marp Slides** — render LLM-generated slide decks
+- **Dataview** — query wiki pages by YAML frontmatter (e.g. list all articles tagged `#ai` sorted by date)
+
+### Download Images Locally
+
+In Obsidian: Settings → Files and Links → set "Attachment folder path" to `raw/images/`. Then in Settings → Hotkeys, search "Download" and bind "Download attachments for current file" to a hotkey (e.g. `Ctrl+Shift+D`). After clipping a web article, hit the hotkey to download all images locally so the LLM can reference them.
+
+### Graph View
+
+Use Obsidian's built-in graph view to see the shape of your wiki — which concepts are hubs, which are orphans, how topics cluster.
 
 ## Key Principles
 

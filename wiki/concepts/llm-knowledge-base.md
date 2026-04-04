@@ -1,3 +1,11 @@
+---
+title: LLM Knowledge Base
+tags: [llm, knowledge-base, core-concept]
+created: 2026-04-02
+updated: 2026-04-02
+sources: [llm-knowledge-base-idea]
+---
+
 # LLM Knowledge Base
 
 > A personal knowledge base where an LLM agent handles all creation, maintenance, and querying of structured content.
@@ -46,6 +54,3 @@ graph LR
 
 - [[summaries/llm-knowledge-base-idea]] — original concept note
 
----
-*Last updated: 2026-04-02*
-*Tags: #llm #knowledge-base #core-concept*

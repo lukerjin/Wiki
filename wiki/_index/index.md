@@ -1,6 +1,6 @@
-# Master Index
+# Index
 
-> Auto-maintained by Claude Code. Lists every article in the wiki with a one-line summary.
+> Auto-maintained by Claude Code. Catalog of every page in the wiki with a one-line summary.
 
 ## Summaries
 
@@ -21,6 +21,3 @@
 ## Outputs
 
 *No generated outputs yet.*
-
----
-*Last updated: 2026-04-02*

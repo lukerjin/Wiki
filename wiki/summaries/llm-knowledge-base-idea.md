@@ -1,11 +1,14 @@
-# Summary: LLM Knowledge Bases — The Idea
+---
+title: "LLM Knowledge Bases — The Idea"
+source: raw/notes/llm-knowledge-base-idea.md
+author: Community synthesis (Karpathy-style workflow)
+date: 2025-01-01
+type: note
+tags: [llm, knowledge-base, obsidian, wiki, workflow]
+indexed: 2026-04-02
+---
 
-| Field | Value |
-|-------|-------|
-| Source | `raw/notes/llm-knowledge-base-idea.md` |
-| Author | Community synthesis (Karpathy-style workflow) |
-| Date | 2025-2026 |
-| Type | note |
+# Summary: LLM Knowledge Bases — The Idea
 
 ## Key Points
 
@@ -33,6 +36,3 @@ The core idea is to use an LLM agent (like Claude Code) to manage the entire lif
 
 > "At ~100 articles and ~400K words, well-maintained indexes beat vector search."
 
----
-*Indexed: 2026-04-02*
-*Tags: #llm #knowledge-base #obsidian #wiki #workflow*

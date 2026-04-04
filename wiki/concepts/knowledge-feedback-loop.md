@@ -1,3 +1,11 @@
+---
+title: Knowledge Feedback Loop
+tags: [feedback-loop, compounding, workflow]
+created: 2026-04-02
+updated: 2026-04-02
+sources: [llm-knowledge-base-idea]
+---
+
 # Knowledge Feedback Loop
 
 > Query outputs and explorations are filed back into the wiki, compounding the knowledge base over time.
@@ -34,6 +42,3 @@ graph TD
 
 - [[summaries/llm-knowledge-base-idea]] — describes the feedback loop pattern
 
----
-*Last updated: 2026-04-02*
-*Tags: #feedback-loop #compounding #workflow*
